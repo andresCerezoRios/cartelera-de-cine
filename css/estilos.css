@@ -1,5 +1,5 @@
 .body-cinema{
-  background: url(../img/fondo.jpg);
+  background: url(../img/sillasrojas.jpg);
   width: 100%;
   height: 100%;
   background-position: center;
@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
 }
 .navbar{
+  background: rgba(8, 45, 94, 0.9);
   height: 9%;
 }
 .container-fluid{
@@ -17,8 +18,7 @@
   margin-left: -15px;
 }
 .jumbotron{
-  background: url(../img/cartelera.jpg);
-  background-image: url(../img/cartelera.jpg);
+  background: url(../img/rollos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -30,7 +30,7 @@
 }
 .titulo-cartelera{
   min-height: 45px;
-  background: none;
+  background: rgba(8, 45, 94, 0.9);
 }
 .movies-row{
   background: #4d0000;
@@ -63,4 +63,28 @@
   .movies-column{
     min-height: 230px;
   }
+}
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+.logo-img{
+width: 10%;
+padding-top: 1px;
+}
+.jumbotron-img{
+  width: 300px;
+  margin-top: 20px;
+}
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.redes-sociales{
+  margin-top: 20px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
 }
